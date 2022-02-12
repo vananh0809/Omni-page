@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Verdana, sans-serif;
+}
+
+.section-transform {
+    background-color: #ccc !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.main-heading {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.underline {
+    width: 64px;
+    border-bottom: orange 2px solid ;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 16px;
+}
+
+#content .content-section {
+    padding: 64px 16px;
+}
+
+#content .content-section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.working {
+    padding-top: 64px;
+}
+
+.working::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.phone-image {
+    float: left;
+    width: 45%;
+}
+
+.step {
+    float: left;
+    width: 55%;
+}
+
+.working-step {
+    font-size: 16px;
+    padding-bottom: 56px;
+    padding-right: 300px;
+}
+
+.working-step::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.star-image {
+    float: left;
+    width: 10%;
+    font-size: 32px;
+}
+
+.step-detail {
+    float: left;
+    width: 90%;
+}
+
+.col-half {
+    width: 50%;
+    float: right;
+    padding-right: 16px;
+}
+
+.form-comment {
+    padding-top: 64px;
+}
+
+.form-field {
+    width: 50%;
+    float: left;
+}
+
+.label-form {
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+
+.input-form {
+    height: 32px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.textarea-form {
+    height: 96px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+.button-form {
+    width: 96px;
+    height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    margin-top: 8px;
+}
+
+
+#header {
+    background: url('/Omnipage/assets/img/hero.jpg') top center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+.opacicity-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#header .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .nav > li {
+    display: inline-block;
+    float: right;
+    margin: 64px 88px;
+    line-height: 96px;
+}
+
+#header .nav > li > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#header .nav > .image-header {
+    margin-right: 150px !important;
+}
+
+#header .title-header {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+#header .title-header > h1 {
+    font-weight: normal;
+    font-size: 56px;
+}
+
+#header .title-header .button-header {
+    margin-top: 16px;
+}
+
+#header .title-header .button-header > button {
+    height: 40px;
+    width: 132px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: orange 2px solid;
+    color: orange;
+    margin-right: 8px;
+}
+
+.orange-btn {
+    background-color: orange !important;
+    color: white !important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+#content .content-section > p {
+    margin: 32px 320px;
+}
+
+#content .content-section .main-features {
+    margin: 0 160px;
+}
+
+#content .content-section .main-features > .feature {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+#content .content-section .main-features .feature > i {
+    color: orange;
+    font-size: 40px;
+}
+
+#content .content-section .main-features .feature > h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+
+#content .content-image::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#content .content-image > img {
+    width: 25%;
+    float: left;
+}
+.cities {
+    display: flex;
+    color: darkorange;
+    padding: 20px;
+    padding-left: 160px;
+}
+.a {
+    display: flex;
+}
+.img img {
+    width: 300px;
+    height: 150px;
+} 
+
+.feedback {
+    display: flex;
+}
+.cost {
+    display: flex;
+    padding: 20px;
+    padding-left: 360px;
+    margin: 20px;
+}
+.x {
+    margin: 30px;
+}
+.title {
+    padding: 20px;
+    padding-left: 500px;
+}
+.feedback {
+    padding: 20px;
+}
+.customer {
+    margin: 20px;
+}
